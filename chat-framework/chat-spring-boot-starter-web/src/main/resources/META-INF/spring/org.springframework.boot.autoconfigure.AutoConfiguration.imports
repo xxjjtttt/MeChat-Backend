@@ -1,0 +1,7 @@
+top.xxjjtt.chat.framework.apilog.config.ChatApiLogAutoConfiguration
+top.xxjjtt.chat.framework.jackson.config.ChatJacksonAutoConfiguration
+top.xxjjtt.chat.framework.swagger.config.ChatSwaggerAutoConfiguration
+top.xxjjtt.chat.framework.web.config.ChatWebAutoConfiguration
+top.xxjjtt.chat.framework.xss.config.ChatXssAutoConfiguration
+top.xxjjtt.chat.framework.banner.config.ChatBannerAutoConfiguration
+top.xxjjtt.chat.framework.encrypt.config.ChatApiEncryptAutoConfiguration

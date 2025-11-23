@@ -1,0 +1,3 @@
+top.xxjjtt.chat.framework.mq.redis.config.ChatRedisMQProducerAutoConfiguration
+top.xxjjtt.chat.framework.mq.redis.config.ChatRedisMQConsumerAutoConfiguration
+top.xxjjtt.chat.framework.mq.rabbitmq.config.ChatRabbitMQAutoConfiguration

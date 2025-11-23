@@ -1,0 +1,4 @@
+top.xxjjtt.chat.framework.idempotent.config.ChatIdempotentConfiguration
+top.xxjjtt.chat.framework.lock4j.config.ChatLock4jConfiguration
+top.xxjjtt.chat.framework.ratelimiter.config.ChatRateLimiterConfiguration
+top.xxjjtt.chat.framework.signature.config.ChatApiSignatureAutoConfiguration

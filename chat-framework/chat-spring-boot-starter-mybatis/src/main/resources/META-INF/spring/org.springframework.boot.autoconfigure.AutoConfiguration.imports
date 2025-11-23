@@ -1,0 +1,3 @@
+top.xxjjtt.chat.framework.datasource.config.ChatDataSourceAutoConfiguration
+top.xxjjtt.chat.framework.mybatis.config.ChatMybatisAutoConfiguration
+top.xxjjtt.chat.framework.translate.config.ChatTranslateAutoConfiguration
