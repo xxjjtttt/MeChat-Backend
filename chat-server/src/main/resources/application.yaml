@@ -347,5 +347,8 @@ chat:
   iot:
     message-bus:
       type: redis # 消息总线的类型
+  netty:
+    port: 49090
+    prefix: /netty
 
 debug: false
