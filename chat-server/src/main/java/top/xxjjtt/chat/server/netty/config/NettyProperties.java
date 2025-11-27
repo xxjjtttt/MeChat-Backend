@@ -1,4 +1,4 @@
-package top.xxjjtt.chat.server.netty;
+package top.xxjjtt.chat.server.netty.config;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package top.xxjjtt.chat.server.netty;
+package top.xxjjtt.chat.server.netty.handler;
 
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
@@ -10,13 +10,14 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Component
 @ChannelHandler.Sharable
-public class NettyHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
+public class ChatBizHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) {
         String text = msg.text();
         log.info("收到消息 {}", text);
         ctx.channel().writeAndFlush(new TextWebSocketFrame("Echo: " + text));
+        msg.retain();
     }
 
     @Override

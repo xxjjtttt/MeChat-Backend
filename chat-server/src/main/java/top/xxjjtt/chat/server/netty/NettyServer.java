@@ -10,6 +10,7 @@ import jakarta.annotation.PreDestroy;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import top.xxjjtt.chat.server.netty.config.NettyProperties;
 
 /**
  * Netty服务器
