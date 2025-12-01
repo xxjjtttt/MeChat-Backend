@@ -291,11 +291,11 @@ chat:
       topic: ${spring.application.name}-websocket # 消息发送的 Kafka Topic
       consumer-group: ${spring.application.name}-websocket-consumer # 消息发送的 Kafka Consumer Group
   swagger:
-    title: 芋道快速开发平台
-    description: 提供管理后台、用户 App 的所有功能
+    title: MeChat
+    description: 基于Netty的即时通讯平台设计与实现
     version: ${chat.info.version}
     url: ${chat.web.admin-ui.url}
-    email: xingyu4j@vip.qq.com
+    email: xxjjtttt@outlook.com
     license: MIT
     license-url: https://gitee.com/zhijiantianya/ruoyi-vue-pro/blob/master/LICENSE
   codegen:
